@@ -11,6 +11,15 @@ import pwinput
 import random
 import datetime
 
+tv = """
+
+    ░▀▄░░▄▀░░░░░░░░░░░░░░░
+    ▄▄▄██▄▄▄▄▄░░░░░░░░░░░░
+    █▒░▒░▒░█▀█░░CINEMA░░░░
+    █░▒░▒░▒█▀█░░░░░░░░░░░░
+    █▄▄▄▄▄▄███░░░░░░░░░░░░
+"""
+
 start_dt = datetime.date(2025, 8, 1)
 end_dt = datetime.date(2025, 12, 1)
 time_between_dates = end_dt - start_dt
@@ -345,5 +354,5 @@ def login(): #login section where the user can log in his/her registered account
 def logged_in(username): #displaying a green corresponds with the user's username
     print(f"Welcome, @{username}\n")
     dashboardcinema()
-
+print(tv)
 dashboard()
